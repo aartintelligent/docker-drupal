@@ -16,7 +16,7 @@ docker run -it --rm \
   -v $(pwd)/drupal:/var/www \
   -w /var/www \
   aartintelligent/php:8.4-composer update \
-  "drupal/*" --with-all-dependencies
+  --with-all-dependencies
 ```
 
 
